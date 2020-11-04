@@ -9,6 +9,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+    npm login --registry=https://npm.pkg.github.com/
+    npm publish
 
     <title>CV PAYET Matthias</title>
     
