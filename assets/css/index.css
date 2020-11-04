@@ -1,0 +1,543 @@
+
+/*-------------------- VERSION MOBILE --------------------*/
+
+body
+{ 
+  margin: 0;
+  margin-top: 47%;
+  margin-bottom: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
+  background-image: url(../img/fondhead.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-color:rgba(196, 201, 255, 0.562);
+}
+
+
+/*----- PROFIL -----*/
+
+.blocprofil
+{
+  background-image: url(../img/photosocial4mob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*----- ENSEMBLE BLOC -----*/
+
+.blocprofil, .coordonnees, .formation, .lang, .compet, .passion, .expe, .expe1, .ancy2
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.500);
+  line-height: 160%;
+}
+
+/*----- TITRES -----*/
+
+h1
+{
+  color: #101C24;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2
+{
+  color: #101C24;
+  text-align: center;
+  font-size: 28px;
+}
+
+h3
+{
+  color: #172833;
+  text-align: center;
+  font-size: 24px;
+}
+
+h4
+{
+  text-align: center;
+  font-size: 22px;
+  margin-right: 10x;
+  margin-left: 0px;
+}
+
+/*----- CONTENUS -----*/
+p
+{
+  font-size: 18px;
+  justify-content: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.desc
+{
+  text-align: center;
+  font-size: 16px;
+}
+
+.icons
+{
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.reve
+{
+  font-style: italic;
+}
+
+.photo
+{
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+img
+{
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/*
+        Cher recruteurs, merci de prendre le temps d'examiner mon travail.
+
+*/
+
+.photoboisdo
+{
+  max-width: 90%;
+  margin : 5%;
+  margin-bottom: 3%;
+  margin-top: 0;
+}
+
+.photoannecy
+{
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons
+{
+  font-size: x-large;
+  color: #30556B;
+}
+
+.timeline
+{
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.500);
+}
+
+/*----- MARGIN -----*/
+
+.fa-mobile-alt
+{
+  margin-left: 5px;
+}
+
+.fa-envelope-open-text
+{
+  margin-left: 2px;
+}
+
+.tel
+{
+  margin-left: 4px;
+}
+
+.pol
+{
+  margin-left: 25px;
+}
+
+.pol1
+{
+  font-size: 18px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.ing
+{
+  margin-left: 24px;
+}
+
+.content
+{
+  margin: 8px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+/*----- FOOTER -----*/
+
+.footer
+{
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+/*-------------------- VERSION DESKTOP --------------------*/
+
+
+@media screen and (min-width: 700px)
+{
+  body
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h1
+  {
+    font-size: 42px;
+  }
+
+  h2
+  {
+    font-size: 34px;
+  }
+
+  h3
+  {
+    font-size: 28px;
+  }
+
+  h4
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .photo
+  {
+    max-width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .blocprofil
+  {
+    background-image: url(../img/photosocial4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .mainbloc
+  {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  p
+  {
+    margin-left: 4%;
+  }
+
+  img
+  {
+    margin-top: 20px;
+    max-width: 30%;
+    border-radius: 6px;
+  }
+
+  .annecy
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .photoannecy
+  {
+    max-width: 70%;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  .box2 
+  {
+    margin-right: 20px;
+  }
+  .photovsc{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 28%;
+  }
+
+  .ancy2
+  {
+    background-image: url(../img/drapeau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ancy23
+  {
+    padding-left: 405px;
+
+  }
+
+  .coordonnees
+  {
+    background-image: url(../img/test4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .icons
+  {
+    font-size: xx-large;
+  }
+
+  .lang
+  {
+    margin-left: 15%;
+  }
+
+  .flexbox-exp
+  {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flexbox-exp > div {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .flexbox-exp > div:first-child {
+    margin-right: 20px;
+
+  }
+
+/*----- TIMELINE -----*/
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    top: 85px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 40%;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.500);
+    border: 4px solid rgb(67, 139, 221);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* Place the container to the left */
+  .left
+  {
+    left: 28px;
+  }
+
+  /* Place the container to the right */
+  .right
+  {
+    left: 50%;
+  }
+
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgba(87, 90, 112, 0.363);
+  }
+
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgba(87, 90, 112, 0.363) transparent transparent;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+
+
+  /* The actual content */
+  .content {
+    padding: 10px 30px;
+    background-color: rgba(87, 90, 112, 0.2);
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .timeline
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+  }
+
+  .formation
+  {
+    margin-top: 10px;
+  }
+
+  .vie
+  {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .real
+  {
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .lang
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pol
+  {
+    margin-left: 25px;
+  }
+
+  .trmr
+  {
+    margin-left: 0;
+  }
+
+  .pol1
+  {
+    font-size: 18px;
+    margin-left: 45px;
+  }
+
+  .ing
+  {
+    margin-left: 0;
+  }
+
+  .pied
+  {
+    margin-left: 20px;
+  }
+
+}
+
+
+/*-----------------------------DARK MODE-----------------------------*/
+
+@media (prefers-color-scheme: dark)
+{
+  body 
+  {
+    background-color: #292929;
+  }
+
+  .blocprofil, .ancy2
+  {
+    background-image: none;
+  }
+
+  .blocprofil, .coordonnees, .formation, .lang, .compet, .passion, .expe, .expe1, .ancy2, .timeline
+  {
+    background-color: #42425E;
+    color: white;
+  }
+
+  h1, h2, h3, .icons
+  {
+    color: white;
+  }
+
+  .content
+  {
+    background-color: #758AFF;
+  }
+
+  .email
+  {
+    color: white;
+  }
+}
